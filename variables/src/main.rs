@@ -18,5 +18,14 @@ let y=y+1;
 
 println!("value of outer scope variable is {y}");
 
+// floating point in action
+let number:f64=10.9;
+println!("number is {number}");
 
+// calculations i action
+let addition=30+20;
+let difference=30/2;
+let multiply=4*6;
+let remainder=13%2;
+println!("result of addition is :{addition},\n result of difference is :{difference},\nresult of multiplication is :{multiply},\nthe ramainder is :{remainder}");
 }
